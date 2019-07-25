@@ -61,7 +61,7 @@ output separately, like so `porter schema --debug 2> err.log`.
 
 # Documentation
 
-We use [Hugo](gohugo.io) to build our documentation site, and it is hosted on [Netlify](netlify.com).
+We use [Hugo](https://gohugo.io) to build our documentation site, and it is hosted on [Netlify](https://www.netlify.com).
 
 1. [Install Hugo](https://gohugo.io/getting-started/installing) using `brew install hugo`, 
 `choco install hugo` or `go get -u github.com/gohugoio/hugo`.
@@ -82,7 +82,7 @@ Our CI system watches for tags, and when a tag is pushed, it executes the
 publish target in the Makefile. When you are asked to cut a new release,
 here is the process:
 
-1. Figure out the correct version number, we follow [semver](semver.org) and
+1. Figure out the correct version number, we follow [semver](https://semver.org) and
     have a funny [release naming scheme][release-name]:
     * Bump the major segment if there are any breaking changes.
     * Bump the minor segment if there are new features only.
