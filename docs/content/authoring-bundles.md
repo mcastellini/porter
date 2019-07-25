@@ -242,9 +242,9 @@ Note: Neither porter nor the DeisLabs mixins use this information.
 
 In addition to the porter manifest, Porter generates a few files for you to create a compliant CNAB Spec bundle.
 
-* `cnab/`: This directory structure is created during `porter init`. You can add files to this directory and they will
+* `cnab/`: This directory structure is created during `porter build`. You can add files to this directory and they will
 be copied into the final bundle so that you can access them at runtime. The path to this directory at runtime is `/cnab`.
-* `cnab/app/run`: This file is created during `porter init` and should not be modified.
+* `cnab/app/run`: This file is created during `porter build` and should not be modified.
 * `Dockerfile`: This file is generated during `porter build` and cannot be modified.
 
 ## See Also
