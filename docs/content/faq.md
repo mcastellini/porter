@@ -7,6 +7,7 @@ description: Frequently Asked Questions
 * [Does Porter Replace Duffle?](#does-porter-replace-duffle)
 * [Should I use Porter or Duffle?](#should-i-use-porter-or-duffle)
 * [How does your release naming scheme work?](#how-does-your-release-naming-scheme-work)
+* [Does Porter fully implement the CNAB specification?](#does-porter-fully-implement-the-cnab-specification)
 
 ## What is CNAB?
 
@@ -60,6 +61,6 @@ have to match, just the release name. This allows one of the products to ship on
 release cadence, and still guarantee that a version will work with another product.
 
 
-## Does CNAB fully implement the CNAB specification?
+## Does Porter fully implement the CNAB specification?
 
 Porter currently implements much of the CNAB spec, however, as the [CNAB specification](https://github.com/deislabs/cnab-spec) moves toward 1.0, some gaps have emerged. Currently, if you build a bundle with Porter, you'll be able to install it with Porter. There are some gaps with the spec that limit compatibility with other CNAB tooling. See the [CNAB 1.0 Milestone](https://github.com/deislabs/porter/milestone/12) for more information on these gaps.
